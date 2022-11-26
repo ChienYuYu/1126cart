@@ -23,6 +23,7 @@ export default createStore({
       if(localStorage.getItem('carts') === null) {
         localStorage.setItem('carts', JSON.stringify(state.carts))
       }
+      state.carts = JSON.parse(localStorage.getItem('carts'));
     },
 
     // 取得購物車

@@ -21,6 +21,9 @@
         showList: false,
       };
     },
+    created() {
+      this.$store.commit('initLocalStorage');
+    },
     computed: {
       getLocalStorage() {
         return this.$store.state.carts
