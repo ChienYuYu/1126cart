@@ -1,24 +1,9 @@
-# 1126cart
+# 簡易購物車邏輯練習 
 
-## Project setup
-```
-npm install
-```
+使用vuex預設資料模擬資料庫Data <br>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+加入購物車存於LocalStorage <br>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+***
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![image](demo/CPT2211261405-720x349.gif)
